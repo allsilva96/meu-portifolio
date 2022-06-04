@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINKS EXTERNOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/86f555245a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap" rel="stylesheet" />
+    <!-- LINKS DENTRO DO PROJETO-->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/logo_icon.ico">
+    <title>Portfolio - Página Inicial</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="https://bulma.io">
+                        <img src="./assets/logo.png" width="112" height="40">
+                    </a>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" id="font-navbar" href="index.html">
+                            Inicio
+                        </a>
+                        <a class="navbar-item" id="font-navbar" href="contato.html">
+                            Contato
+                        </a>
+                    </div>
+            </nav>
+        </header>
+        <!-- PROFILE INFORMATIONS-->
+        <section class="section">
+            <div class="columns is-desktop">
+                <div class="column is-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="./assets/my_photo.jpg" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media-content">
+                                <p class="title is-3">André Luiz</p>
+                                <p class="subtitle is-6">@oandre.dev</p>
+                                <p class="tag is-dark subtitle is-6">Javascript Full Stack Developer</p><br><br>
+                                <p class="subtitle is-6"><i class="fa-solid fa-phone"></i> &nbsp;(11) 99911-9387</p>
+                                <p class="subtitle is-6"><i class="fa-solid fa-envelope"></i>
+                                    &nbsp;aandre.luuiz96@gmail.com</p>
+                            </div>
+                            <hr>
+                            <div class="content social_medias">
+                                <a href="https://www.instagram.com/oandre.dev" target="_blank">
+                                    <p class="icon_card"><i class="fa-brands fa-instagram"></i></p>
+                                </a> |
+                                <a href="https://github.com/allsilva96" target="_blank">
+                                    <p class="icon_card"><i class="fa-brands fa-github"></i></p>
+                                </a> |
+                                <a href="https://www.linkedin.com/in/allsilva96/" target="_blank">
+                                    <p class="icon_card"><i class="fa-brands fa-linkedin"></i></p>
+                                </a>
+                                |
+                                <a href="https://contate.me/oandre.dev" target="_blank">
+                                    <p class="icon_card"><i class="fa-brands fa-whatsapp"></i></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-9">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title card-header">
+                                Contato
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="field is-horizontal">
+                                    <div class="field-label is-normal">
+                                        <label class="label">Contato</label>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <p class="control is-expanded has-icons-left">
+                                                <input class="input" type="text" placeholder="Nome">
+                                                <span class="icon is-small is-left">
+                                                    <i class="fas fa-user"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="field">
+                                            <p class="control is-expanded has-icons-left has-icons-right">
+                                                <input class="input" type="email" placeholder="Email">
+                                                <span class="icon is-small is-left">
+                                                    <i class="fas fa-envelope"></i>
+                                                </span>
+                                                <span class="icon is-small is-right">
+                                                    <i class="fas fa-check"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="field is-horizontal">
+                                    <div class="field-label"></div>
+                                    <div class="field-body">
+                                        <div class="field is-expanded">
+                                            <div class="field has-addons">
+                                                <p class="control">
+                                                    <a class="button is-static">
+                                                        +55
+                                                    </a>
+                                                </p>
+                                                <p class="control is-expanded">
+                                                    <input class="input" type="tel" placeholder="Seu telefone">
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="field is-horizontal">
+                                    <div class="field-label is-normal">
+                                        <label class="label">Menssagem</label>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <div class="control">
+                                                <textarea class="textarea" placeholder="Normal textarea"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field is-horizontal">
+                                <div class="field-label">
+                                </div>
+                                <div class="field-body">
+                                    <div class="field">
+                                        <div class="control">
+                                            <button class="button is-primary">
+                                                Send message
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="to-top">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+            <footer class="footer border_footer" >
+                <div class="content has-text-centered">
+                    <p class="copyright">Copyright &copy; <a href="https://www.instagram.com/oandre.dev" target="_blank">André Luiz</a> <span class="date"></span> todos os direitos
+                        reservados</p>
+                </div>
+            </footer>
+</body>
+
+</html>

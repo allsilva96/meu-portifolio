@@ -1,0 +1,108 @@
+:root {
+    --clr-background: #363636;
+    --clr-primary: #27B9F2;
+    --clr-second: #FFFFFF;
+    --clr-thid: #000000;
+    --ff-primary: 'Montserrat', sans-serif;
+    --ff-second: 'Roboto', sans-serif;
+    --ff-third: 'Open Sants', sans-serif;
+}
+
+.social_medias{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.social_medias a{
+    text-decoration: none;
+    color: var(--ff-third);
+}
+
+.icon_card{
+    font-size: 2.5rem;
+}
+
+body{
+    margin: 0;
+    background-color: var(--clr-background);
+}
+
+.to-top {
+    background: var(--clr-second);
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color: var(--clr-primary);
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  
+  .to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }  
+
+.date::after{
+	content: "\a";
+	white-space: pre;
+}
+
+#icon_card{
+    color: black;
+}
+
+.message-header{
+    background-color: var(--clr-primary);
+}
+
+.card-header{
+    background-color: var(--clr-primary);
+}
+
+.card-header p{
+    color: var(--clr-second);
+}
+
+#font-navbar{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+}
+
+.border_footer{
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .date::after{
+		content: "";
+	}
+    .to-top {
+        background: var(--clr-primary);
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size:24px;
+        color: var(--clr-second);
+        text-decoration: none;
+        opacity:0;
+        pointer-events: none;
+        transition: all .4s;
+      }
+}
